@@ -1,0 +1,25 @@
+# fruits = ["apple", "orange", "banana", "coconut"]
+# vegetables = ["celery", "carrots", "potatoes"]
+# meats = ["chicken", "fish", "turkey"]
+#
+# groceries = [fruits, vegetables, meats]
+#
+# fruits[0] = "manggo"
+# print(groceries)
+# print(groceries[0][1])
+#
+# for grocery in groceries :
+#     for item in grocery :
+#         print(item, end = " ")
+#     print()
+#
+
+num_pad = ((1, 2, 3),
+           (4, 5, 6),
+           (7, 8, 9),
+           ("*", 0, "#"))
+
+for row in num_pad :
+    for num in row :
+        print (num, end = " ")
+    print()
